@@ -4,7 +4,7 @@ import "./App.css";
 
 import Header from "/components/Header";
 import Photo from "/components/Photo";
-import ContactInfo from "/components/ContactInfo";
+import ContactInfo from "./components/ContactInfo";
 
 class App extends Component {
   render() {
