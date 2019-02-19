@@ -1,23 +1,72 @@
-.App {
-  text-align: center;
-  font-family: museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
-.Photo {
-}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 body {
-  background: #cc95c0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #7aa1d2,
-    #dbd4b4,
-    #cc95c0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #7aa1d2,
-    #dbd4b4,
-    #cc95c0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-size: 150% 150%;
+
+  /* animation: backgroundAnimation 10s ease infinite; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+/* body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-size: 150% 150%;
+} */
+
+.aboutMe {
+  background: white;
+  border-radius: 8px;
+  line-height: 1.5em;
+}
+
+.about {
+  color: #f63d47;
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 span {
+  background: #f63d47;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+p {
+  padding: 10px;
+  line-height: 1rem;
+}
+
+a {
+  color: #f63d47;
+  font-weight: 600;
+}
+
+.projects span {
+  background: #f63d47;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.projectCubes {
+  background: white;
+  border-radius: 8px;
+  line-height: 1.5em;
+  padding: 5px;
+}
+
+.projectTitle {
+  color: #f63d47;
 }

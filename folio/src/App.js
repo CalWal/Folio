@@ -2,17 +2,19 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import Header from "./components/Header";
-import Photo from "./components/Photo";
-import ContactInfo from "./components/ContactInfo";
+import Picture from "./components/Picture";
+import AboutMe from "./components/AboutMe";
+import Info from "./components/Info";
+import Projects from "./components/Projects";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <Photo />
-        <ContactInfo />
+        <Picture />
+        <AboutMe />
+        <Info />
+        <Projects />
       </div>
     );
   }
