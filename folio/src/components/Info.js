@@ -3,8 +3,8 @@ import React from "react";
 function Info() {
   return (
     <div className="aboutMe">
-      <section>
         <h2 className="about">ABOUT</h2>
+
         <p>Hi there!</p>
         <p>I'm a developer, digital marketer and soccer player. </p>
         <p>
@@ -28,7 +28,7 @@ function Info() {
           </a>
           .
         </p>
-      </section>
+
     </div>
   );
 }

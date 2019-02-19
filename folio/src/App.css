@@ -5,26 +5,26 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-  background-size: 150% 150%;
+  /* background-size: 150% 150%; */
 
   /* animation: backgroundAnimation 10s ease infinite; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 100vw; */
+  /* height: 100vh; */
   margin: 0;
   text-align: center;
 }
-/* body {
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-  background-size: 150% 150%;
-} */
+
 
 .aboutMe {
   background: white;
   border-radius: 8px;
   line-height: 1.5em;
+  display: inline-block;
+  margin-top: 10px;
+
 }
 
 .about {
@@ -37,6 +37,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+
 
 h1 span {
   background: #f63d47;
@@ -58,13 +60,29 @@ a {
   background: #f63d47;
   color: white;
   letter-spacing: 2px;
+
+}
+
+.projectList{
+max-width: 700px;
+display: flex;
+flex-wrap: wrap;
+margin: 0px auto 20px;
+
 }
 
 .projectCubes {
-  background: white;
-  border-radius: 8px;
-  line-height: 1.5em;
-  padding: 5px;
+max-width: 300px;
+height: 200px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+background: white;
+margin: auto auto 10px;
+border-radius: 2px;
+}
+
+.githubLogo{
+  height: 30px;
+  color: red;
 }
 
 .projectTitle {
