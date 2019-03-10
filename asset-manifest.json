@@ -1,7 +1,7 @@
 {
   "main.css": "/Folio/static/css/main.f8b50bfd.chunk.css",
-  "main.js": "/Folio/static/js/main.30e727cc.chunk.js",
-  "main.js.map": "/Folio/static/js/main.30e727cc.chunk.js.map",
+  "main.js": "/Folio/static/js/main.7f4137a4.chunk.js",
+  "main.js.map": "/Folio/static/js/main.7f4137a4.chunk.js.map",
   "static/js/1.f739feb7.chunk.js": "/Folio/static/js/1.f739feb7.chunk.js",
   "static/js/1.f739feb7.chunk.js.map": "/Folio/static/js/1.f739feb7.chunk.js.map",
   "runtime~main.js": "/Folio/static/js/runtime~main.2a8711ae.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/Folio/static/media/logo.5d5d9eef.svg",
   "static/css/main.f8b50bfd.chunk.css.map": "/Folio/static/css/main.f8b50bfd.chunk.css.map",
   "index.html": "/Folio/index.html",
-  "precache-manifest.5c6ccb8f4ead83ae4488f31ebaba77f0.js": "/Folio/precache-manifest.5c6ccb8f4ead83ae4488f31ebaba77f0.js",
+  "precache-manifest.107a0c14f122c25adeafd49d06e3218c.js": "/Folio/precache-manifest.107a0c14f122c25adeafd49d06e3218c.js",
   "service-worker.js": "/Folio/service-worker.js"
 }
